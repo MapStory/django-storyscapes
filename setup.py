@@ -4,12 +4,12 @@ from setuptools import setup, find_packages
 here = os.path.abspath(os.path.dirname(__file__))
 
 setup(
-    name='django-maploom',
-    version='0.0.1@2017-03-27.21:58:35.f069e0b001',
-    author='LMN Solutions',
-    author_email='geoshape.org@gmail.com',
-    url='https://github.com/ROGUE-JCTD/django-maploom',
-    download_url="https://github.com/ROGUE-JCTD/django-maploom",
+    name='django-storyscapes',
+    version='1.0.0@2017-03-27.21:58:35.f069e0b001',
+    author='Boundless Spatial',
+    author_email='mapstory@mapstory.org',
+    url='https://github.com/MapStory/django-storyscapes',
+    download_url="https://github.com/MapStory/django-storyscapes",
     description="Use MapLoom in your django projects.",
     long_description=open(os.path.join(here, 'README.md')).read(),
     license='See LICENSE file.',
