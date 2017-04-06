@@ -42,5 +42,5 @@ sed -i "s|^    version=.*|    version='0.0.1@"$VER_DATE.$VER_SHA1"',|" ./setup.p
 if [[ $(git status) != *nothing* ]]; then
   git add .
   git commit -m "jenkins job django-storscapes: use latest map client to build django wrapper."
-  git push origin v1.0.0
+  git push
 fi
